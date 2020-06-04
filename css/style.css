@@ -1,0 +1,164 @@
+img{ filter:expression(fixPNGimg(this)); }
+
+
+
+h1 {font-size:18px;}
+.tabl  tbody tr td {border:1px solid #d2d2d2;padding:0 2px; background:#fdfdfd;} 
+.tabl  { padding:0;    border-collapse:collapse; }
+img.tabl {border: 1px solid; padding: 5px; color: rgb(153, 153, 153); margin: 0px 10px 0px 0px;}
+
+
+
+.avv tbody tr td {border:1px dashed grey;} 
+
+.immg{text-align:justify; color:white; background:url('../transparent.png'); width:260px; height:30px; top:-60px;  
+	  position:relative; font-size:12px; font-weight:normal;padding:5px;}
+
+.newss a {color: #8a1f39; text-decoration:none;}
+.newss a:hover { text-decoration:underline;}
+
+ul {list-style:none;}
+ul.ul {margin:5px;}
+
+
+div.menuxa  a { text-decoration:none; padding: 4px 8px; color: #8a1f39; font-weight:bold; font-family:arial;}
+
+div.menuxa {height:25px; position:relative; float:left; margin-bottom: 3px; }
+div.menuxa ul { position:relative; height:25px;}
+div.menuxa ul li {float:left; height:25px; position: relative;}
+
+
+
+
+
+/*div.menuxa ul li a {display:block; height:25px;}*/
+
+
+div.menuxa ul ul { position:absolute; top:25px; left:4px; height:auto; display:none;}
+div.menuxa ul li.selected ul {display:block;}
+
+
+
+
+
+div.menuxa ul ul li {float:left; height:auto;}
+div.menuxa ul ul li.separator {padding:0px; margin:0px 7px; background:none;}
+div.menuxa ul ul li a {color:#333333; text-transform:uppercase; width:auto; height:auto; background:none; text-decoration:none;}
+div.menuxa ul ul li a:hover {color:#8a1f39; text-decoration:none;}
+
+
+
+
+
+div.menuxa ul li ul.subMainMenu {background-color: #f7f7f7; border-bottom: 3px solid #000;
+	z-index: 10000; position: absolute; top: 100%; left: 0%; color: #5c5c5c; font-size: 11px; font-family: Tahoma;
+	width: 255px; padding-left: 0px; padding-right: 0px;
+	/*filter:progid:DXImageTransform.Microsoft.Alpha(opacity=99);*/ /* IE 5.5+*/
+	-moz-opacity: 0.99; /* Mozilla 1.6 и ниже */
+	-khtml-opacity: 0.99; /* Konqueror 3.1, Safari 1.1 */
+	opacity: 0.99; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9 */}
+div.menuxa ul li ul.subMainMenu li {border-bottom: 1px solid #ccc; width: 243px; padding: 7px 6px;}
+div.menuxa ul li ul.subMainMenu li a {color: #5c5c5c; background: none; text-transform: none; width: 243px;}
+div.menuxa ul li ul.subMainMenu li a:hover {color: #8a1f39; background: none;}
+
+
+ul.dropdown ul.subMainMenu li:hover{background:#eeeeee;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#flash
+{
+position: block;
+background:#728b9f;
+top: 0px;
+z-index:1;
+}
+
+div.container a:link{color:#8a1f39;text-decoration:none;font-family:arial;font-size:14px;}
+div.container a:visited{color:#8a1f39;}
+div.container a:hover{ color:#aa1f39;text-decoration:underline;}
+div.container {font-family:arial; font-size:14px;}
+
+a.menu  {color:#8a1f39; text-transform:uppercase; font-family:arial; font-size:16px; text-decoration:none; font-weight:bold;}
+a.langa:hover {text-decoration:underline;}
+a.langa {color:#8a1f39; text-transform:lowercase; font-family:arial; font-size:16px; text-decoration:none; font-weight:bold;}
+
+
+a.level1 {color:#8a1f39; text-transform:uppercase;  font-family:arial; font-size:15px; text-decoration:none; display: block;  margin-top:4px; font-weight:bold;}
+a.level1:hover {text-decoration:underline;}
+
+.titl {color:#8a1f39;}
+
+a.level2 {color:black; font-family:arial; font-size:14px; text-decoration:none;padding-left:5px;font-weight:normal;display: block;border-bottom:1px dashed #e0e0e0; padding-top:3px; width:170px;   float:left;}
+a.level2:hover {text-decoration:underline;}
+
+
+
+
+
+
+
+
+
+
+
+/* 									{ margin: 0; padding: 0; }
+*/
+
+body								{ font: 14px Helvetica, Sans-Serif; } 
+#page-wrap							{ width: 800px; margin: 25px auto; } 
+a									{ text-decoration: none; }
+ul									{ list-style: none; }
+p                                					   { margin: 15px 0; }
+
+ /*
+	LEVEL ONE
+*/
+ul.dropdown                       	  { position: relative; margin: 0; padding: 0; font-family:arial; font-size:16px; text-decoration:none; font-weight:bold;}
+ul.dropdown li                     	 { font-weight: bold; float: left; zoom: 1; margin: 0; padding: 0;}
+ul.dropdown a:hover		{ color: #8a1f39; }
+ul.dropdown a:active            	{ color: #ffa500; }
+ul.dropdown li a                    	{ display: block; padding: 4px 8px; color: #8a1f39; }
+ul.dropdown li:last-child a         { border-right: none; } /* Doesn't work in IE */
+ul.dropdown li.hover,
+ul.dropdown li:hover                { background: #f3ecd9; color: #8a1f39; position: relative; }
+ul.dropdown li.hover a              { color: #8a1f39; }
+
+
+/* 
+background: #8a1f39; color: #f3ecd9;
+
+
+	LEVEL TWO
+*/
+ul.dropdown ul 			{ width: 220px; visibility: hidden; position: absolute; top: 100%; left: 0; margin: 0; padding: 0;}
+ul.dropdown ul li 			{ font-weight: normal; background: #f6f6f6; color: #8a1f39;  border-bottom: 1px solid #ccc; float: none; }
+									  
+                                    /* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a			{ border-right: none; width: 100%; display: inline-block; font-weight:bold; } 
+
+/* 
+	LEVEL THREE
+*/
+ul.dropdown ul ul 			{ left: 100%; top: 0; }
+ul.dropdown li:hover > ul 	{ visibility: visible; }
+
+
+
+
+
+#toper 	{background:url('../top-khnu.png') no-repeat left bottom;}
+
